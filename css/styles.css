@@ -45,7 +45,6 @@ ul {
 .link-navigation:hover,
 .link-navigation:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .contacts-info {
@@ -129,15 +128,15 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.part-about-team{
-  background-color: #F4F4FD;
-}
-   
-.photos{
-  background-color: #FFFFFF;
+.part-about-team {
+  background-color: #f4f4fd;
 }
 
-.footer-characteristics{
+.photos {
+  background-color: #ffffff;
+}
+
+.footer-characteristics {
   background-color: var(--main-color);
 }
 
@@ -177,5 +176,3 @@ ul {
   color: #fff;
   background: #404bbf;
 }
-
-
