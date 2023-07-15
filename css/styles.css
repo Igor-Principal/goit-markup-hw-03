@@ -27,7 +27,7 @@ address {
   font-style: normal;
 }
 
-img{
+img {
   display: block;
 }
 
@@ -100,8 +100,13 @@ ul {
 }
 .hero-section {
   background-color: var(--main-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-title {
+  padding-bottom: 48px;
+  margin: 0 auto;
+  max-width: 496px;
   color: #fff;
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -112,6 +117,9 @@ ul {
 }
 
 .main-button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
   color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -119,7 +127,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background: #4d5ae5;
-  cursor: pointer;
+  border-radius: 4px;
 }
 
 .main-button:hover,
@@ -129,15 +137,15 @@ ul {
 
 .visually-hidden {
   position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .third-title {
