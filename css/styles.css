@@ -58,6 +58,9 @@ ul {
 .header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -69,7 +72,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 25.5px;
+  margin-right: 76px;
 }
 .part-of-logo {
   color: var(--main-color);
@@ -92,6 +95,7 @@ ul {
 .header-nav {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 
 .header-list {
@@ -146,6 +150,7 @@ ul {
   height: 56px;
   display: block;
   margin: 0 auto;
+  border: none;
   color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -163,8 +168,8 @@ ul {
 }
 
 .about-us {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
+  
 }
 
 .list-about-us {
@@ -177,16 +182,16 @@ ul {
 }
 
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .third-title {
@@ -208,7 +213,6 @@ ul {
 }
 
 .what-we-do {
-  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -254,9 +258,12 @@ ul {
 
 .footer {
   background-color: var(--main-color);
-  padding-top: 101.5px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
+}
+
+.link-footer{
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 
 .part-logo-footer {
@@ -276,7 +283,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-top: 17.5px;
 }
 
 .container-products {
