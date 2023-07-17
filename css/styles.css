@@ -96,13 +96,14 @@ ul {
   display: flex;
   gap: 76px;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .contacts-info {
@@ -169,7 +170,6 @@ ul {
 
 .about-us {
   padding: 120px 0;
-  
 }
 
 .list-about-us {
@@ -182,16 +182,16 @@ ul {
 }
 
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .third-title {
@@ -239,6 +239,11 @@ overflow: hidden;
   padding-bottom: 120px;
 }
 
+.container-team{
+  padding: 32px 0
+}
+
+
 .list-team {
   display: flex;
   gap: 24px;
@@ -261,9 +266,9 @@ overflow: hidden;
   padding: 100px 0;
 }
 
-.link-footer{
+.link-footer {
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 .part-logo-footer {
@@ -291,10 +296,7 @@ overflow: hidden;
 }
 
 .examples-of-works {
-  padding-top: 96px;
-  padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 96px 0 120px 0;
 }
 
 .list-button-directions {
@@ -313,15 +315,17 @@ overflow: hidden;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border: 1px;
+  border: 1px solid #e7e9fc;
   background: #f4f4fd;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button-our-directions:hover,
 .button-our-directions:focus {
   color: #fff;
   background: #404bbf;
+  border: 1px solid transparent;
 }
 
 .products-list {
