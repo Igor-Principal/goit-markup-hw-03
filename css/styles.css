@@ -84,7 +84,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .link-navigation:active,
@@ -104,7 +104,7 @@ ul {
 .header-list {
   display: flex;
   gap: 40px;
-  
+
 }
 
 .contacts-info {
@@ -240,10 +240,9 @@ ul {
   padding-bottom: 120px;
 }
 
-.container-team{
-  padding: 32px 0
+.container-team {
+  padding: 32px 0;
 }
-
 
 .list-team {
   display: flex;
